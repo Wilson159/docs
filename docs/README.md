@@ -1,3 +1,3 @@
-# Headline
+# Welcome
 
-> An awesome project.
+> Welcome to my documentation!
