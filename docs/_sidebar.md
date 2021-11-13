@@ -1,7 +1,7 @@
-* [➤ Home](./)
+* [➤ Home](/)
 
-* [Commands](./commands/index)
-* [Events](./events/index)
+* [Commands](/commands/index)
+* [Events](/events/index)
 
 * []()
 * []()
@@ -9,5 +9,5 @@
 * []()
 
 
-* [About](./info/about/index)
-* [Contact](./info/contact/index)
+* [About](/about/index)
+* [Contact](/contact/index)
