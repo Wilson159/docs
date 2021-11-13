@@ -1,4 +1,4 @@
-[Wilson's Documents Copyright (C) 2021 Wilson](./info/license)
+[Wilson's Documents Copyright (C) 2021 Wilson](/info/license)
 
 !> All of these commands have been tested with [Lyxcode's Slash Command Handler](https://youtu.be/rqRb8YJ4T5Q) if you are using anything else, you will have to adapt the code yourself.  
 

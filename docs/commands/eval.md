@@ -1,4 +1,4 @@
-[Wilson's Documents Copyright (C) 2021 Wilson](./info/license)
+[Wilson's Documents Copyright (C) 2021 Wilson](/info/license)
 
 !> Change "YOUR_ID_HERE" to be your Discord ID.
 

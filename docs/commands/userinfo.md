@@ -1,4 +1,4 @@
-[Wilson's Documents Copyright (C) 2021 Wilson](./info/license)
+[Wilson's Documents Copyright (C) 2021 Wilson](/info/license)
 
 ?> You will need to add the following code to your **Commands.js**, replacing the existing *Missing Description* section.
 ```js
