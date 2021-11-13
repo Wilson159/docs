@@ -1,6 +1,6 @@
 * [Home](./)
 
-* [> Commands](./commands/index)
+* [➤ Commands](./commands/index)
 * [Events](./events/index)
 
 * []()

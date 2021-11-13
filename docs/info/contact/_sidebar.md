@@ -10,4 +10,4 @@
 
 
 * [About](./info/about/index)
-* [> Contact](./info/contact/index)
+* [➤ Contact](./info/contact/index)

@@ -1,4 +1,4 @@
-* [> Home](./)
+* [➤ Home](./)
 
 * [Commands](./commands/index)
 * [Events](./events/index)

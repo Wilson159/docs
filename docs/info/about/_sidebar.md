@@ -9,5 +9,5 @@
 * []()
 
 
-* [> About](./info/about/index)
+* [➤ About](./info/about/index)
 * [Contact](./info/contact/index)
