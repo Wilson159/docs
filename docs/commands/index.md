@@ -4,7 +4,7 @@
 
 ?> Some of these commands will require you to install additional packages.
 ### Command List
-- [Userinfo](./commands/userinfo)  
-- [Covid Info](./commands/covid)
-- [Eval](./commands/eval)
-- [Role Manager](./commands/rolemanager)
+- [Userinfo](/commands/userinfo)  
+- [Covid Info](/commands/covid)
+- [Eval](/commands/eval)
+- [Role Manager](/commands/rolemanager)
