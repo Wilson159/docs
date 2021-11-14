@@ -2,6 +2,11 @@
 
 !> Change "YOUR_ID_HERE" to be your Discord ID.
 
+### Usage Examples
+```
+const test = "ddd"; console.log(test);   <-- outputs ddd in console
+```
+
 ### Eval
 ```js
 const { MessageEmbed, CommandInteraction } = require('discord.js');

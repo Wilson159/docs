@@ -6,5 +6,4 @@
 ### Command List
 - [Userinfo](/commands/userinfo)  
 - [Covid Info](/commands/covid)
-- [Eval](/commands/eval)
 - [Role Manager](/commands/rolemanager)
