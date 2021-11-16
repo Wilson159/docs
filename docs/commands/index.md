@@ -8,3 +8,4 @@
 - [Covid Info](/commands/covid)
 - [Role Manager](/commands/rolemanager)
 - [Activity Command](/commands/activity)
+- [Bug Report](/commands/bugreport)
