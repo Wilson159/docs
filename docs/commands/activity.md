@@ -1,5 +1,8 @@
+[Wilson's Documents Copyright (C) 2021 Wilson](/info/license)
 
+?> Replace *your_id_here* with your ID in order to stop random people changing your bot's activity.
 
+### Activity Command
 ```js
 const { Client, MessageEmbed, CommandInteraction } = require('discord.js');
 
