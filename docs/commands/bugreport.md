@@ -37,7 +37,7 @@ module.exports = {
      * @param {CommandInteraction} interaction 
      */
     async execute(interaction) {
-        const { options } = require("discord.js");
+        const { options } = interaction;
         const type        = options.getString("type");
         const name        = options.getString("name");
         const description = options.getString("description");
