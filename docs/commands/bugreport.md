@@ -2,7 +2,7 @@
 
 ### Bug Report Command
 ```js
-const { CommandInteraction, MessageEmbed } = require("discord.js")
+const { CommandInteraction, MessageEmbed } = require("discord.js");
 
 module.exports = {
     name: "bug_report",
@@ -37,7 +37,7 @@ module.exports = {
      * @param {CommandInteraction} interaction 
      */
     async execute(interaction) {
-        const { options } = require("discord.js")
+        const { options } = require("discord.js");
         const type        = options.getString("type");
         const name        = options.getString("name");
         const description = options.getString("description");
@@ -48,7 +48,7 @@ module.exports = {
                 {name: "Type:", value: `${type}`, inline: true},
                 {name: "Name:", value: `${name}`, inline: true},
                 {name: "Description", value: `${description}`}
-            )
+            );
 
         interaction.reply({embeds: [response]});
     }
