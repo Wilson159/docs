@@ -2,6 +2,10 @@
 
 ### Embed Generator
 ```js
+[Wilson's Documents Copyright (C) 2021 Wilson](/info/license)
+
+### Embed Generator
+```js
 const {CommandInteraction, MessageEmbed } = require("discord.js")
 
 module.exports = {
@@ -106,4 +110,5 @@ module.exports = {
         }
     }
 }
+```
 ```
