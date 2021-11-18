@@ -55,7 +55,7 @@ module.exports = {
                 const description = options.getString("description");
                 const thumbnail   = options.getString("thumbnail");
                 const image       = options.getString("image");
-                const timestamp   = options.getBoolean("timestamp");
+                const timestamp   = options.getBoolean();
                 const footer      = options.getString("footer");
                 let   fields      = options.getString("fields");
 
