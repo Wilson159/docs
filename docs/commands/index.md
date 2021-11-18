@@ -7,3 +7,4 @@
 - [Userinfo](/commands/userinfo)  
 - [Covid Info](/commands/covid)
 - [Role Manager](/commands/rolemanager)
+- [Embed Generator](/commands/embedgenerator)
