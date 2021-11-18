@@ -2,5 +2,5 @@
 
 ### Forms of Contact:
 
-Discord: Wilson#0159
+Discord: Wilson#0159  
 E-Mail: wilson.documentation@lives-in-the.cloud
