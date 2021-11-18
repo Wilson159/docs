@@ -7,9 +7,6 @@
 - [Userinfo](/commands/userinfo)  
 - [Covid Info](/commands/covid)
 - [Role Manager](/commands/rolemanager)
-<<<<<<< HEAD
-- [Embed Generator](/commands/embedgenerator)
-=======
 - [Activity Command](/commands/activity)
 - [Bug Report](/commands/bugreport)
->>>>>>> d310fdec48f5cc5935df8aa929fb7d36d88fce1c
+- [Embed Generator](/commands/embedgenerator)
