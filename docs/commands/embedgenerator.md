@@ -2,7 +2,7 @@
 
 ### Embed Generator
 ```js
-const {CommandInteraction, MessageEmbed } = require("discord.js")
+const {CommandInteraction, MessageEmbed } = require("discord.js");
 
 module.exports = {
     name: "embed",
@@ -70,7 +70,7 @@ module.exports = {
                     fields = fields.split("^");
                     fields.forEach(e => {
                         if(e.length > 0) {
-                            splitFields.push(e.trim())
+                            splitFields.push(e.trim());
                         }
                     });
             
@@ -87,7 +87,7 @@ module.exports = {
                 }
 
                 if(!embed.title && !embed.description && !embed.fields[0]) {
-                    embed.setDescription("You have not provided valid options!")
+                    embed.setDescription("You have not provided valid options!");
                 }
                 interaction.reply({embeds: [embed]});
             break;
@@ -100,8 +100,8 @@ module.exports = {
                         {name: "Name", value: "Wilson", inline: true},
                         {name: "Age", value: "18", inline: true},
                         {name: "Interests", value: "Airsoft, Gaming and Coding", inline: false}
-                    )    
-                interaction.reply({embeds: [help]})
+                    )
+                interaction.reply({embeds: [help]});o
             break;
         }
     }
