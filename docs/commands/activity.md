@@ -4,9 +4,9 @@
 
 ### Activity Command
 ```js
-//  Credit to: Wilson#0159 on Discord
-//  This header message cannot be removed
-//  Refer to the license page linked at the top
+//  Credit to: Wilson#0159 on Discord.
+//  Removal of this header breaches the license agreement.
+//  For more info, refer to the license page linked at the top.
 
 const { Client, MessageEmbed, CommandInteraction } = require('discord.js');
 
