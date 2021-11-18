@@ -48,7 +48,7 @@ module.exports = {
                         .setColor('RED')
                         .addField('Command:', `\`\`\`${code}\`\`\``),
                 ],
-                ephemeral: true,
+                ephemeral: true
             });
         } else {
             interaction.reply({
