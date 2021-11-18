@@ -8,6 +8,10 @@ To install the packages, these commands in your terminal.
 
 ### Covid Info
 ```js
+//  Credit to: Wilson#0159 on Discord.
+//  Removal of this header breaches the license agreement.
+//  For more info, refer to the license page linked at the top.
+
 const covidApi = require('novelcovid');
 const { CommandInteraction, MessageEmbed } = require('discord.js');
 const { stripIndent } = require('common-tags');
