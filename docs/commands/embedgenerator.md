@@ -6,6 +6,10 @@
 
 ### Embed Generator
 ```js
+//  Credit to: Wilson#0159 on Discord.
+//  Removal of this header breaches the license agreement.
+//  For more info, refer to the license page linked at the top.
+
 const {CommandInteraction, MessageEmbed } = require("discord.js")
 
 module.exports = {
