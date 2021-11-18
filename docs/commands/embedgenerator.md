@@ -52,7 +52,7 @@ module.exports = {
                 const eFields     = [[], [], []];
                 const splitFields = [];
 
-                const timestamp   = options.getBoolean();
+                
                 const colour      = options.getString("colour");
                 const title       = options.getString("title");
                 const url         = options.getString("url");
@@ -60,6 +60,7 @@ module.exports = {
                 const description = options.getString("description");
                 const thumbnail   = options.getString("thumbnail");
                 const image       = options.getString("image");
+                const timestamp   = options.getBoolean("timestamp);
                 const footer      = options.getString("footer");
                 let   fields      = options.getString("fields");
 
@@ -72,7 +73,7 @@ module.exports = {
                 if(title)         embed.setTitle(title);
                 if(author)        embed.setAuthor(author);
                 if(description)   embed.setDescription(description);
-                if(timestamp)     embed.setTimestamp(timestamp);
+                if(timestamp)     embed.setTimestamp();
                 if(footer)        embed.setFooter(footer);
                 if(fields) {
                     fields = fields.split("^");
