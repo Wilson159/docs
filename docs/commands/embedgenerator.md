@@ -2,7 +2,7 @@
 
 ### Embed Generator
 ```js
-const {CommandInteraction, MessageEmbed } = require("discord.js");
+const {CommandInteraction, MessageEmbed } = require("discord.js")
 
 module.exports = {
     name: "embed",
@@ -57,20 +57,20 @@ module.exports = {
 
                 const embed       = new MessageEmbed();
 
-                if(colour) embed.setColor(colour.toUpperCase());
-                if(title) embed.setTitle(title);
-                if(url) if (url.includes("http")) embed.setURL(url);
-                if(author) embed.setAuthor(author);
-                if(description) embed.setDescription(description);
-                if(thumbnail) if (thumbnail.includes("http")) embed.setThumbnail(thumbnail);
-                if(image) if (image.includes("http")) embed.setImage(image);
-                if(timestamp) embed.setTimestamp(timestamp);
-                if(footer) embed.setFooter(footer);
+                if(url)           if (url.includes("http")) embed.setURL(url);
+                if(thumbnail)     if (thumbnail.includes("http")) embed.setThumbnail(thumbnail);
+                if(image)         if (image.includes("http")) embed.setImage(image);
+                if(colour)        embed.setColor(colour.toUpperCase());
+                if(title)         embed.setTitle(title);
+                if(author)        embed.setAuthor(author);
+                if(description)   embed.setDescription(description);
+                if(timestamp)     embed.setTimestamp(timestamp);
+                if(footer)        embed.setFooter(footer);
                 if(fields) {
                     fields = fields.split("^");
                     fields.forEach(e => {
                         if(e.length > 0) {
-                            splitFields.push(e.trim());
+                            splitFields.push(e.trim())
                         }
                     });
             
@@ -87,7 +87,7 @@ module.exports = {
                 }
 
                 if(!embed.title && !embed.description && !embed.fields[0]) {
-                    embed.setDescription("You have not provided valid options!");
+                    embed.setDescription("You have not provided valid options!")
                 }
                 interaction.reply({embeds: [embed]});
             break;
@@ -100,8 +100,8 @@ module.exports = {
                         {name: "Name", value: "Wilson", inline: true},
                         {name: "Age", value: "18", inline: true},
                         {name: "Interests", value: "Airsoft, Gaming and Coding", inline: false}
-                    )
-                interaction.reply({embeds: [help]});o
+                    )    
+                interaction.reply({embeds: [help]})
             break;
         }
     }
