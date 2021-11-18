@@ -1,7 +1,7 @@
 [Wilson's Documents Copyright (C) 2021 Wilson](/info/license)
 
 ### Embed Generator
-```js
+
 [Wilson's Documents Copyright (C) 2021 Wilson](/info/license)
 
 ### Embed Generator
@@ -110,5 +110,4 @@ module.exports = {
         }
     }
 }
-```
 ```
