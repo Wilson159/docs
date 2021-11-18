@@ -7,6 +7,10 @@ return Table.addRow(command.name, '🔸', 'Missing Description');
 ```
 ### Slash Command
 ```js
+//  Credit to: Wilson#0159 on Discord.
+//  Removal of this header breaches the license agreement.
+//  For more info, refer to the license page linked at the top.
+
 const { CommandInteraction, MessageEmbed } = require("discord.js");
 
 module.exports = {
@@ -47,6 +51,10 @@ module.exports = {
 ```
 ### Context Menu
 ```js
+//  Credit to: Wilson#0159 on Discord.
+//  Removal of this header breaches the license agreement.
+//  For more info, refer to the license page linked at the top.
+
 const { MessageEmbed, ContextMenuInteraction } = require("discord.js");
 
 module.exports = {
