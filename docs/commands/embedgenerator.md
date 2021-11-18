@@ -48,6 +48,7 @@ module.exports = {
                 const eFields     = [[], [], []];
                 const splitFields = [];
 
+                const timestamp   = options.getBoolean();
                 const colour      = options.getString("colour");
                 const title       = options.getString("title");
                 const url         = options.getString("url");
@@ -55,7 +56,6 @@ module.exports = {
                 const description = options.getString("description");
                 const thumbnail   = options.getString("thumbnail");
                 const image       = options.getString("image");
-                const timestamp   = options.getBoolean();
                 const footer      = options.getString("footer");
                 let   fields      = options.getString("fields");
 
