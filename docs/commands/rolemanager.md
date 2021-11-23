@@ -1,6 +1,7 @@
 [Wilson's Documents Copyright (C) 2021 Wilson](/info/license)
 
 ### Role Manager
+(Special thanks to KevinFoged#1138 for refactoring)
 ```js
 //  Credit to: Wilson#0159 on Discord.
 //  Removal of this header breaches the license agreement.
