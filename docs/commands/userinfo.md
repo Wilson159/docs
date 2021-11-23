@@ -6,6 +6,7 @@ if (!command.type && !command.description)
 return Table.addRow(command.name, '🔸', 'Missing Description');
 ```
 ### Slash Command
+(Special thanks to KevinFoged#1138 for refactoring and random colour part)
 ```js
 //  Credit to: Wilson#0159 on Discord.
 //  Removal of this header breaches the license agreement.
@@ -50,6 +51,7 @@ module.exports = {
 }
 ```
 ### Context Menu
+(Special thanks to KevinFoged#1138 for refactoring and random colour part)
 ```js
 //  Credit to: Wilson#0159 on Discord.
 //  Removal of this header breaches the license agreement.
