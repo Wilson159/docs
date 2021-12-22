@@ -2,6 +2,7 @@
 
 ### Bug Report Command
 ```js
+//  GNU General Publice Lisence v3.0
 //  Credit to: Wilson#0159 on Discord.
 //  Removal of this header breaches the license agreement.
 //  For more info, refer to the license page linked at the top.
