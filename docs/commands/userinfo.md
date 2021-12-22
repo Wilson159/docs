@@ -8,7 +8,7 @@ return Table.addRow(command.name, '🔸', 'Missing Description');
 ### Slash Command
 (Special thanks to KevinFoged#1138 for refactoring and random colour part)
 ```js
-//  GNU General Publice Lisence v3.0
+//  GNU General Publice Lisence v3.0 - https://www.gnu.org/licenses/gpl-3.0.en.html
 //  Credit to: Wilson#0159 on Discord.
 //  Removal of this header breaches the license agreement.
 //  For more info, refer to the license page linked at the top.
