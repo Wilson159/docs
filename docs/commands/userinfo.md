@@ -35,8 +35,8 @@ module.exports = {
         
         const response = new MessageEmbed()
             .setColor(target.user.accentColor || "RANDOM")
-            .setAuthor(target.user.tag, target.user.avatarURL({dynamic: true}))
-            .setThumbnail(target.user.avatarURL({dynamic: true}))
+            .setAuthor({name: target.user.tag, iconURL: target.user.displayAvatarURL({dynamic: true})})
+            .setThumbnail(target.user.displayAvatarURL({dynamic: true}))
             .setImage(target.user.bannerURL({dynamic: true, size: 512}) || "")
             .addFields(
                 {name: "ID", value: target.user.id},
@@ -73,8 +73,8 @@ module.exports = {
         
         const response = new MessageEmbed()
             .setColor(target.user.accentColor || "RANDOM")
-            .setAuthor(target.user.tag, target.user.avatarURL({dynamic: true}))
-            .setThumbnail(target.user.avatarURL({dynamic: true}))
+            .setAuthor({name: target.user.tag, iconURL: target.user.displayAvatarURL({dynamic: true})})
+            .setThumbnail(target.user.displayAvatarURL({dynamic: true}))
             .setImage(target.user.bannerURL({dynamic: true, size: 512}) || "")
             .addFields(
                 {name: "ID", value: target.user.id},
